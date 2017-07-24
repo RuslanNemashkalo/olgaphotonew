@@ -1,0 +1,82 @@
+a { 
+	color:#333;
+}
+a:hover {
+	color:#000;
+}
+body {
+	background:#efefef;
+	color:#333;
+}
+#logo, #logo a {
+	color:#999;
+}
+#navigation a {
+	color:#333;
+}
+#navigation, #slideshow, #sliderin, .post-thumbnail li img, #footer, #navigation ul ul, .gallery li, .widget li {
+	border-color:#e3e3e3;
+}
+/* nav */
+#navigation ul ul {
+	border-top-color:#efefef;
+	background:#efefef;
+}
+#navigation a:hover, #navigation li.current_page_item a, #navigation li.current-menu-item a {
+	color:#e22d2d;
+}
+#navigation ul li:hover a, #navigation ul li:hover li a:hover, #navigation li:hover li.current-menu-item a{
+	color:#e22d2d;
+}
+#navigation ul li:hover li a {
+	color:#333;
+}
+/* nav */
+#showcase {
+	background:url(lightgray/bg_showcase.png) no-repeat center 150px;
+}
+#slideshow, #sliderin {
+	background:#fff;
+}
+.gallery li:hover {
+	background:#ccc;
+}
+.post-thumbnail li img{
+	background:#fff;
+}
+.post-thumbnail li a, .post .meta {
+	color:#333;
+}
+.post-thumbnail li a strong {
+	color:#000;
+}
+.post-thumbnail li a:hover, .post-thumbnail li a:hover strong, .entry a:hover, .post .meta a:hover, #comment a:hover {
+	color:#000;
+}
+.widget .input, .widget input[type="text"]{
+	border:none;
+}
+.widget .button, .widget input[type="submit"] {
+	margin:0;
+	background:#333;
+}
+.widget .button:hover, .widget input:hover[type="submit"] {
+	background:#000;
+}
+.pagination span.current, .pagination a:hover {
+	background:#333;
+	border-color:#333;
+}
+.pagination a {
+	background:#e3e3e3;
+	border-color:#999;
+}
+#comments .txtb .arrow {
+	background:url(lightgray/arrow_comment.png) no-repeat;
+}
+#comments .txtb{
+	background:#e3e3e3;
+}
+#comments p{
+	color:#333;
+}

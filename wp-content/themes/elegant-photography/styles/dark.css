@@ -1,0 +1,75 @@
+a { 
+	color:#fff;
+}
+a:hover {
+	color:#fff553;
+}
+body {
+	background:#191919;
+	color:#fff;
+}
+#logo, #logo a, #navigation a {
+	color:#fff;
+}
+#navigation, #slideshow, #sliderin, .post-thumbnail li img, #footer, #navigation ul ul, .gallery li, .widget li {
+	border-color:#000;
+}
+/* nav */
+#navigation ul ul {
+	border-top-color:#191919;
+}
+#navigation a:hover, #navigation li.current_page_item a, #navigation li.current-menu-item a {
+	color:#fff553;
+}
+#navigation ul li:hover a, #navigation ul li:hover li a:hover, #navigation li:hover li.current-menu-item a {
+	color:#fff553;
+}
+#navigation ul li:hover li a {
+	color:#fff;
+}
+/* nav */
+#showcase {
+	background:url(dark/bg_showcase.png) no-repeat center 150px;
+}
+#slideshow, #sliderin, #navigation ul ul {
+	background:#191919;
+}
+.gallery li:hover {
+	background:#000;
+}
+.post-thumbnail li a, .post .meta {
+	color:#c7c7c7;
+}
+.post-thumbnail li a strong {
+	color:#fff;
+}
+.post-thumbnail li a:hover, .post-thumbnail li a:hover strong, .entry a:hover, .post .meta a:hover, #comment a:hover {
+	color:#fff553;
+}
+.widget .input, .widget input[type="text"]{
+	border:none;
+}
+.widget .button, .widget input[type="submit"] {
+	margin:0;
+	background:#e22d2d;
+}
+.widget .button:hover, .widget input:hover[type="submit"] {
+	background:#b32525;
+}
+.pagination span.current, .pagination a:hover {
+	background:#e22d2d;
+	border-color:#e22d2d;
+}
+.pagination a {
+	background:#555454;
+	border-color:#555454;
+}
+#comments .txtb .arrow {
+	background:url(dark/arrow_comment.png) no-repeat;
+}
+#comments .txtb{
+	background:#555454;
+}
+#comments p{
+	color:#fff;
+}
